@@ -1,0 +1,13 @@
+.container{
+	width: 200px;
+}
+
+.custom-text-container{
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.clipboard-text-container{
+	display: inline-flex;
+	flex-direction: column;
+}
