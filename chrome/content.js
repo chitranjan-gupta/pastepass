@@ -24,7 +24,7 @@ document.addEventListener('touchstart', (event) => {
 });
 
 
-function doSomething(){
+function doSomething(event){
 		if(event.target){
 		if(event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement){
 			chrome.paste_pass_clicked_element = event.target;
